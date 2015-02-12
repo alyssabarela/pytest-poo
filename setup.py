@@ -23,7 +23,7 @@ setup(name='pytest-poo-fail',
       maintainer="Alyssa Barela",
       maintainer_email="alyssa.barela17@gmail.com",
       url='http://github.com/alyssa.barela/pytest-poo-fail',
-      py_modules=['pytest_poo-fail'],
+      py_modules=['pytest_poo_fail'],
       long_description=read('README.rst'),
       install_requires=['pytest>=2.3.4'],
       classifiers=['Development Status :: 5 - Production/Stable',
@@ -39,4 +39,4 @@ setup(name='pytest-poo-fail',
                    'Programming Language :: Python :: 3.3',
                   ],
       # the following makes a plugin available to py.test
-      entry_points={'pytest11': ['pooprovider = pytest_poo']})
+      entry_points={'pytest11': ['pooprovider = pytest_poo_fail']})
