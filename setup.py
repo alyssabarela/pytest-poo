@@ -16,7 +16,7 @@ def read(fname):
 
 
 setup(name='pytest-poo-fail',
-      version='1.0',
+      version='1.1',
       description='Visualize your failed tests with poo',
       author='Andreas Pelme, Alyssa Barela',
       author_email='alyssa.barela17@gmail.com',
